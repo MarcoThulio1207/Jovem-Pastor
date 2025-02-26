@@ -47,6 +47,96 @@ const styles = StyleSheet.create({
         fontSize:15,
         marginTop:15,
         color:'#3C4A43'
+    },
+    txtCadastre:{
+        marginTop:40,
+        color:'#4fa266',
+        fontWeight:'700',
+        fontSize:30
+    },
+    areaCadastro:{
+        backgroundColor:'#bdbdbd',
+        borderRadius:8,
+        width:350,
+        marginTop:20
+    },
+    txtInput:{
+        fontSize:20,
+        fontWeight:'500',
+        color:'#3C4A43',
+        fontFamily:'Arvo-Regular',
+        padding:10,
+        marginTop:5
+    },
+    areaInput:{
+        borderRadius:8,
+        backgroundColor:'#efebe7',
+        width:325,
+        left:10,
+        borderRadius:5
+    },
+
+    inputCadastro:{
+        fontSize:20,
+    },
+    btnTermos:{
+        alignItems:'center',
+    },
+    txtBtnTermos:{
+        color:'#4fa266',
+        fontFamily:'Arvo-Regular',
+        fontSize:15
+    },
+    btnCadastro:{
+        alignItems:'center',
+        marginTop:12,
+        backgroundColor:'#efebe7',
+        borderRadius:5,
+        padding:8,
+        width:250,
+        left:50
+
+    },
+    txtBtnCadastro:{
+        fontSize:19,
+        color:'#4fa266',
+        fontFamily:'Arvo-Regular',
+    },
+    btnVolta:{
+        marginTop:12,
+        alignItems:'center',
+    },
+    txtBtnVoltar:{
+        color:'#4fa266',
+        fontFamily:'Arvo-Regular',
+        fontSize:15
+    },
+    tituloTermo:{
+        fontWeight:'bold',
+        fontSize:20,
+        textAlign:'center',
+        marginTop:10,
+        marginBottom:5
+    },
+    txt:{
+        fontSize:15,
+        padding:8
+    },
+    BtnVoltaCadastro:{
+        marginTop:20,
+        alignItems:'center'
+    },
+    BtnVoltacadastro:{
+        backgroundColor:'#3C4A43',
+        borderRadius:6,
+        padding:8,
+        width:150,
+        alignItems:'center'
+    },
+    txtVoltar:{
+        color:'#fff',
+        fontSize:18,
+        fontWeight:'500'
     }
 })
 
