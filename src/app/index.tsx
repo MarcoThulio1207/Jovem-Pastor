@@ -36,6 +36,7 @@ export default function Login(){
             <View style={styles.containerBtn}>
                 <TouchableOpacity
                 style={styles.areaBtnLogin}
+                onPress={()=>router.push('./pages/Home')}
                 >
                     <Text style={styles.txtbtnLogin}>Login</Text>
                 </TouchableOpacity>
